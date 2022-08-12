@@ -31,7 +31,7 @@
   ];
   let team = [
     {
-      src: "/vlad.jpg",
+      src: "/vlad.png",
       alt: "Character 1",
       twitter: "https://twitter.com/vladroman2",
       name: "VLAD ROMAN"
