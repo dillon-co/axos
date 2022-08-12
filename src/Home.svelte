@@ -33,7 +33,7 @@
     {
       src: "/vlad.png",
       alt: "Character 1",
-      twitter: "https://twitter.com/vladroman2",
+      twitter: "https://twitter.com/vladrooman2",
       name: "VLAD ROMAN"
     },
     {
