@@ -31,39 +31,39 @@
   ];
   let team = [
     {
-      src: "/character-1.png",
+      src: "/vlad.jpg",
       alt: "Character 1",
-      twitter: "",
+      twitter: "https://twitter.com/vladroman2",
       name: "VLAD ROMAN"
     },
     {
-      src: "/character-1.png",
+      src: "/modrogan.png",
       alt: "Character 1",
-      twitter: "",
-      name: "MOROGAN"
+      twitter: "https://twitter.com/modroagency",
+      name: "MODROGAN"
     },
     {
-      src: "/character-1.png",
+      src: "/stoned-monkey.png",
       alt: "Character 1",
-      twitter: "",
+      twitter: "https://twitter.com/StonedMonkey666",
       name: "STONEDMONKEY"
     },
     {
-      src: "/character-1.png",
+      src: "/profile-pic-cropped.jpg",
       alt: "Character 1",
-      twitter: "",
+      twitter: "https://twitter.com/dill_eth",
       name: "dill.eth"
     },
     {
-      src: "/character-1.png",
+      src: "/justin-cures.jpg",
       alt: "Character 1",
-      twitter: "",
+      twitter: "https://twitter.com/justincures",
       name: "JUSTIN CURES"
     },
     {
-      src: "/character-1.png",
+      src: "/rezz.png",
       alt: "Character 1",
-      twitter: "",
+      twitter: "https://twitter.com/rezz6969",
       name: "REZZ"
     },
   ];
@@ -209,11 +209,13 @@
     <div class="grid grid-cols-6">
       {#each team as { src, alt, twitter, name} }
         <div class="flex flex-col items-center">
-          <img
-          {src}
-          {alt}
-          class="w-72 h-72 mb-4 transform transition-transform hover:rotate-12"
-          />
+          <a href="{twitter}">
+            <img
+            {src}
+            {alt}
+            class="w-72 h-72 mb-4 transform transition-transform hover:rotate-12"
+            />
+          </a>
           <div>
             <h1 class="text-2xl text-purple-600">{name}</h1>
           </div>
